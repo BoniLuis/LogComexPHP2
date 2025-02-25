@@ -1,0 +1,37 @@
+:root {
+  --background-color: #212121;
+  --text-color: #fff;
+  --background-header-color: #303030;
+  --font-family: 'Inter', sans-serif;
+  --padding-default: 16px;
+  --margin-default: 16px;
+  --background-buttons: linear-gradient(135deg, #ffcc00, #ff5722);
+  --background-buttons-hover: linear-gradient(135deg, #ff5722, #d32f2f);
+  --fire-gradient: linear-gradient(135deg, #ff7043, #d84315);
+  --water-gradient: linear-gradient(135deg, #29b6f6, #0288d1);
+  --grass-gradient: linear-gradient(135deg, #66bb6a, #388e3c);
+  --electric-gradient: linear-gradient(135deg, #ffeb3b, #fbc02d);
+  --ice-gradient: linear-gradient(135deg, #4dd0e1, #0097a7);
+  --fighting-gradient: linear-gradient(135deg, #ef5350, #c62828);
+  --poison-gradient: linear-gradient(135deg, #ab47bc, #6a1b9a);
+  --ground-gradient: linear-gradient(135deg, #bcaaa4, #8d6e63);
+  --flying-gradient: linear-gradient(135deg, #81d4fa, #0288d1);
+  --psychic-gradient: linear-gradient(135deg, #ec407a, #ad1457);
+  --bug-gradient: linear-gradient(135deg, #9ccc65, #689f38);
+  --rock-gradient: linear-gradient(135deg, #a1887f, #5d4037);
+  --ghost-gradient: linear-gradient(135deg, #7e57c2, #4527a0);
+  --dragon-gradient: linear-gradient(135deg, #5c6bc0, #283593);
+  --dark-gradient: linear-gradient(135deg, #616161, #212121);
+  --steel-gradient: linear-gradient(135deg, #90a4ae, #546e7a);
+  --fairy-gradient: linear-gradient(135deg, #f06292, #d81b60);
+  
+  --text-dark: #333;
+  --text-light: #fff;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  margin: 0;
+}
